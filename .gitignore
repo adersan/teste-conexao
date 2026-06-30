@@ -1,6 +1,10 @@
 __pycache__/
 *.py[cod]
 .dist/
+build/
+dist/
+release/
+*.spec
 versões anteriores/
 .venv/
 venv/

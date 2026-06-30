@@ -23,3 +23,14 @@ Também é possível iniciar diretamente:
 ```powershell
 python teste_rede_dashboard_v11_flet.py
 ```
+
+## Gerar o instalador
+
+Execute `build_installer.bat`. O pacote final será criado em:
+
+```text
+release\AS-Tech-Diagnostico-Setup-1.0.0.exe
+```
+
+O instalador é destinado ao Windows 64-bit e não exige Python no computador
+do usuário.
