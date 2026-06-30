@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.dist/
+versões anteriores/
+.venv/
+venv/
