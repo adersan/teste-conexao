@@ -1,5 +1,5 @@
 #define MyAppName "AS Tech - Diagnóstico de Conexão"
-#define MyAppVersion "1.0.0"
+#define MyAppVersion "1.0.1"
 #define MyAppPublisher "AS Tech Solutions"
 #define MyAppExeName "AS-Tech-Diagnostico.exe"
 
@@ -20,7 +20,7 @@ WizardStyle=modern
 ArchitecturesAllowed=x64compatible
 ArchitecturesInstallIn64BitMode=x64compatible
 UninstallDisplayIcon={app}\{#MyAppExeName}
-VersionInfoVersion=1.0.0.0
+VersionInfoVersion=1.0.1.0
 VersionInfoCompany={#MyAppPublisher}
 VersionInfoDescription=Instalador do diagnóstico de conexão AS Tech
 

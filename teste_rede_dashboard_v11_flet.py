@@ -6,6 +6,19 @@ Polling via thread dedicada (nao on_idle).
 from __future__ import annotations
 import os, sys, subprocess, signal
 
+# Aplicativos PyInstaller com --noconsole deixam stdout/stderr como None.
+# O speedtest-cli antigo tenta chamar fileno() nesses objetos durante o import.
+class _NullOutput:
+    encoding = "utf-8"
+    def write(self, _): return 0
+    def flush(self): pass
+    def fileno(self): raise OSError("saída de console indisponível")
+
+if sys.stdout is None:
+    sys.stdout = _NullOutput()
+if sys.stderr is None:
+    sys.stderr = _NullOutput()
+
 def _ensure(name, pkg):
     try: return __import__(name)
     except ImportError:

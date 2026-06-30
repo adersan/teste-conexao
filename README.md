@@ -29,7 +29,7 @@ python teste_rede_dashboard_v11_flet.py
 Execute `build_installer.bat`. O pacote final será criado em:
 
 ```text
-release\AS-Tech-Diagnostico-Setup-1.0.0.exe
+release\AS-Tech-Diagnostico-Setup-1.0.1.exe
 ```
 
 O instalador é destinado ao Windows 64-bit e não exige Python no computador

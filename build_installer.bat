@@ -21,8 +21,8 @@ flet pack "teste_rede_dashboard_v11_flet.py" ^
   --distpath ".dist" ^
   --product-name "AS Tech - Diagnostico de Conexao" ^
   --file-description "Dashboard de diagnostico de rede" ^
-  --product-version "1.0.0" ^
-  --file-version "1.0.0.0" ^
+  --product-version "1.0.1" ^
+  --file-version "1.0.1.0" ^
   --company-name "AS Tech Solutions" ^
   --copyright "Copyright (c) 2026 AS Tech Solutions" ^
   --hidden-import speedtest ^
@@ -35,7 +35,7 @@ if errorlevel 1 goto :erro
 
 echo.
 echo Instalador criado em:
-echo %CD%\release\AS-Tech-Diagnostico-Setup-1.0.0.exe
+echo %CD%\release\AS-Tech-Diagnostico-Setup-1.0.1.exe
 echo.
 exit /b 0
 
